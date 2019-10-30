@@ -1,0 +1,27 @@
+@mixin fonts($size, $font, $col) {
+    font-family: $font;
+    color: $col;
+    font-size: $size;
+}
+
+header {
+    .container {
+        background: red;
+        @include fonts(24px, 'Hel', red);
+
+        .class1 {
+            columns: 0cm;
+        }
+
+        &.class2 {
+            color: red;
+        }
+    }
+}
+
+footer {
+    .container {
+        background: green;
+        @include fonts(44px, 'Hel', white);
+    }
+}

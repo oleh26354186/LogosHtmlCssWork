@@ -1,0 +1,21 @@
+header .container {
+  background: red;
+  font-family: "Hel";
+  color: red;
+  font-size: 24px;
+}
+header .container .class1 {
+  columns: 0cm;
+}
+header .container.class2 {
+  color: red;
+}
+
+footer .container {
+  background: green;
+  font-family: "Hel";
+  color: white;
+  font-size: 44px;
+}
+
+/*# sourceMappingURL=style.css.map */
